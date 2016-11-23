@@ -1,0 +1,217 @@
+main {
+    margin: 2.5% 5% 0 5%;
+    font-family: MS Mingcho;
+}
+
+.titleBox {
+    width: 50%;
+    text-align: center;
+    font-size: 30px;
+    height: 45px;
+    display: table-cell;
+    vertical-align: middle;
+    border: solid black 1px;
+    white-space: nowrap;
+}
+
+.height-line {
+    height: 45px;
+}
+
+.marginB {
+    margin-top: 0;
+    margin-bottom: 3px;
+}
+
+.margin0 {
+    margin: 0;
+}
+
+.margin5 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.margin15 {
+    margin-top: 15px;
+}
+
+.font20 {
+    font-size: 20px;
+}
+
+.font22 {
+    font-size: 22.5px;
+}
+
+.font25 {
+    font-size: 25px;
+}
+
+.font30 {
+    font-size: 30px;
+}
+
+.font35 {
+    font-size: 35px;
+}
+
+.divTable {
+    display: table;
+    width: 100%;
+}
+
+.borderBottom {
+    border-bottom: solid black 1px;
+    width: 75%;
+}
+
+.pTex {
+    margin: 0;
+}
+
+table {
+    width: 100%;
+    border: 1px solid black;
+    border-spacing: 0;
+    border-collapse: collapse;
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+td {
+    height: 20px;
+}
+
+.thColor {
+    background-color: #bbff99;
+}
+
+.alert-danger {
+    background-color: #f2dede;
+    border-color: #ebccd1;
+    color: #a94442;
+}
+
+.alert {
+    border: 1px solid transparent;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    padding: 15px;
+}
+
+*::before, *::after {
+    box-sizing: border-box;
+}
+
+*::before, *::after {
+    box-sizing: border-box;
+}
+
+button.close {
+    background: transparent none repeat scroll 0 0;
+    border: 0 none;
+    cursor: pointer;
+    padding: 0;
+}
+
+.close {
+    color: #000;
+    float: right;
+    font-size: 21px;
+    font-weight: bold;
+    line-height: 1;
+    opacity: 0.2;
+    text-shadow: 0 1px 0 #fff;
+}
+
+@page {
+    size: A4;
+}
+
+@media print {
+    main {
+        margin: 0 !important;
+        font-family: MS Mingcho;
+    }
+
+    .titleBox {
+        width: 50%;
+        text-align: center;
+        font-size: 20px;
+        height: 20px;
+        display: table-cell;
+        vertical-align: middle;
+        border: solid black 1px;
+        white-space: nowrap;
+    }
+
+    .height-line {
+        height: 17px;
+    }
+
+    .borderBottom {
+        border-bottom: solid black 1px;
+        width: 75%;
+    }
+
+    .marginB {
+        margin-top: 0;
+        margin-bottom: 0px !important;
+    }
+
+    .margin0 {
+        margin: 0;
+    }
+
+    .margin15 {
+        margin-top: 5px;
+    }
+
+    .font20 {
+        font-size: 11px;
+    }
+
+    .font22 {
+        font-size: 12px;
+    }
+
+    .font25 {
+        font-size: 12.5px;
+    }
+
+    .font30 {
+        font-size: 15px;
+    }
+
+    .font35 {
+        font-size: 17.5px;
+    }
+
+    table {
+        width: 100%;
+        border: 1px solid black;
+        border-spacing: 0;
+        border-collapse: collapse;
+        font-size: 11px;
+        margin-top: 5px;
+    }
+
+    .thColor {
+        background-color: #bbff99;
+    }
+
+    td {
+        height: 11px;
+        line-height: 12.5px;
+    }
+
+    .margin5 {
+        margin-top: 5px;
+        margin-bottom: 5px;
+    }
+
+    .on {
+        display: none;
+    }
+}

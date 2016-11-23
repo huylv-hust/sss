@@ -1,0 +1,14 @@
+RewriteEngine on
+
+RewriteRule ^tp00100 /sss/ [R,L]
+RewriteRule ^s/tp00 /sss/ [R,L]
+RewriteRule ^s/dn00 /sss/ [R,L]
+RewriteRule ^s/ok00 /sss/ [R,L]
+RewriteRule ^s/ca00 /sss/ [R,L]
+RewriteRule ^s/pa00 /sss/ [R,L]
+RewriteRule ^logout.do /sss/ [R,L]
+
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+
+RewriteRule . index.php
