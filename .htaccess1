@@ -1,0 +1,15 @@
+# prevent directory listings
+Options -Indexes
+# follow symbolic links
+Options FollowSymlinks
+RewriteEngine on
+
+RewriteCond %{REQUEST_URI} ^/system/$
+RewriteRule ^(system)/$ /$1 [R=301,L]
+RewriteCond %{REQUEST_URI} ^/system
+RewriteRule ^system(/.+)?$ /backend/web/$1 [L,PT]
+
+RewriteCond %{REQUEST_URI} ^/user/$
+RewriteRule ^(user)/$ /$1 [R=301,L]
+RewriteCond %{REQUEST_URI} ^/user
+RewriteRule ^user(/.+)?$ /frontend/web/$1 [L,PT]

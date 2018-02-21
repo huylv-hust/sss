@@ -1,0 +1,1 @@
+<embed src="<?php echo $link; ?>" width="100%" height="900px">

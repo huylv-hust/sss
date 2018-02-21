@@ -1,0 +1,347 @@
+section {
+    margin: 20px;
+}
+
+table {
+    width: 100%;
+    border: 1px solid black;
+    border-spacing: 0;
+    border-collapse: collapse;
+}
+
+td {
+    vertical-align: middle;
+    height: 25px;
+}
+
+th {
+    vertical-align: middle;
+    height: 25px;
+    background-color: #f2f2f2;
+    font-weight: normal;
+}
+
+p {
+    margin: 0 !important;
+    padding: 0 !important;
+}
+
+span {
+    margin-left: 2.5%;
+    margin-right: 2.5%;
+}
+
+input {
+    pointer-events: none;
+}
+
+.width1 {
+    width: 6.25%;
+}
+
+.width2 {
+    width: 12.5%;
+}
+
+.width3 {
+    width: 18.75%;
+}
+
+.width4 {
+    width: 25%;
+}
+
+.width5 {
+    width: 31.25%;
+}
+
+.width6 {
+    width: 37.5%;
+}
+
+.width7 {
+    width: 43.75%;
+}
+
+.width8 {
+    width: 50%;
+}
+
+.width9 {
+    width: 56.25%;
+}
+
+.width10 {
+    width: 62.5%;
+}
+
+.width11 {
+    width: 68.75%;
+}
+
+.height2 {
+    height: 50px;
+}
+
+.lfloat {
+    float: left;
+}
+
+.rfloat {
+    float: right;
+}
+
+.tleft {
+    text-align: left;
+    padding-left: 5px;
+}
+
+.tright {
+    text-align: right;
+}
+
+.ttop {
+    vertical-align: top;
+}
+
+.tbottom {
+    vertical-align: bottom;
+}
+
+.tcenter {
+    text-align: center;
+}
+
+.ltab {
+    margin-left: 1%;
+}
+
+.rtab {
+    margin-right: 25%;
+}
+
+tr {
+    text-align: center;
+}
+
+.rcorners {
+    border-radius: 50%;
+    border: 1px solid black;
+    width: 100%;
+}
+
+.break {
+    word-break: break-all;
+}
+
+.bbottom {
+    border-bottom: none;
+}
+
+.btop {
+    border-top: none;
+}
+
+.bright {
+    border-right: none;
+}
+
+.bleft {
+    border-left: none;
+}
+
+.bdot {
+    border-bottom: dotted 0.5px;
+}
+
+.top_border {
+    border-top: solid black 1px;
+}
+
+.rdot {
+    border-right: dotted 0.5px;
+}
+
+.bp {
+    border-top: 0.5px dotted;
+}
+
+.size {
+    font-size: 10px;
+}
+
+.sizeup {
+    font-size: 20px;
+}
+
+.iconPrint {
+    margin: 0 20px 0 0;
+    display: inline-block;
+    color: #333;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.iconPrint::before {
+    content: "\f02f";
+    margin-right: 5px;
+    font-family: 'FontAwesome';
+}
+
+.iconClose {
+    margin: 0 10px 0 0;
+    display: inline-block;
+    color: #333;
+    text-decoration: none;
+    font-size: 25px;
+}
+
+.iconClose::before {
+    content: "\f00d";
+    margin-right: 5px;
+    font-family: 'FontAwesome';
+}
+
+.space {
+    margin-bottom: 10px !important;
+    font-size: 20px;
+}
+
+.over {
+    height: 50px;
+    overflow: hidden;
+}
+
+.alert-danger {
+    background-color: #f2dede;
+    border-color: #ebccd1;
+    color: #a94442;
+}
+
+.alert {
+    border: 1px solid transparent;
+    border-radius: 4px;
+    margin-bottom: 20px;
+    padding: 15px;
+}
+
+*::before, *::after {
+    box-sizing: border-box;
+}
+
+*::before, *::after {
+    box-sizing: border-box;
+}
+
+button.close {
+    background: transparent none repeat scroll 0 0;
+    border: 0 none;
+    cursor: pointer;
+    padding: 0;
+}
+
+.close {
+    color: #000;
+    float: right;
+    font-size: 21px;
+    font-weight: bold;
+    line-height: 1;
+    opacity: 0.2;
+    text-shadow: 0 1px 0 #fff;
+}
+
+@page {
+    size: A4;
+    margin: 1cm 5.5mm 0 5.5mm;
+}
+
+@media print {
+    main {
+        height: 100% !important;
+    }
+
+    section {
+        margin: 5px 0 5px 0 !important;
+    }
+
+    section.preview {
+        margin: 10px 0px 15px 0px !important;
+    }
+
+    .center {
+        margin-left: 23%;
+    }
+
+    tr {
+        height: 22px !important;
+        text-align: center !important;
+    }
+
+    .height2 {
+        height: 40px !important;
+    }
+
+    td {
+        vertical-align: middle;
+        height: 22px !important;
+        margin: 0;
+        padding: 0 3px 0 3px;
+    }
+
+    td.tleft {
+        padding-left: 5px;
+    }
+
+    th {
+        -webkit-print-color-adjust: exact;
+        vertical-align: middle;
+        height: 22px !important;
+        background: #f2f2f2 !important;
+        font-weight: normal;
+        margin: 0;
+        padding: 0;
+    }
+
+    span {
+        margin-left: 0% !important;
+        margin-right: 0% !important;
+    }
+
+    .size {
+        font-size: 9px !important;
+    }
+
+    .sizeup {
+        font-size: 20px !important;
+    }
+
+    .rtab {
+        margin-right: 25% !important;
+    }
+
+    .entry-title {
+        display: none !important;
+    }
+
+    .space {
+        margin-bottom: 10px !important;
+        font-size: 15px !important;
+    }
+
+    .over {
+        height: 44px;
+        overflow: hidden;
+    }
+
+    .width3 {
+        max-width: 10px !important;
+    }
+
+    * {
+        font-size: 13px !important;
+    }
+
+    .on {
+        display: none;
+    }
+}
